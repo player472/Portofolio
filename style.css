@@ -18,17 +18,41 @@ body {
   border-radius: 50% /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
 
-.my-button {
-  background-color: #007bff; /* Initial background color */
-  color: white; /* Initial text color */
-  padding: 10px 20px;
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
   border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  margin: 5px;
 }
 
-.my-button:hover {
-  background-color: #0056b3; /* Background color on hover */
-  transform: scale(1.05); /* Slightly enlarge the button on hover */
-  transition: all 0.3s ease; /* Smooth transition for all properties */
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

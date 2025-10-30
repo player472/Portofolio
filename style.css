@@ -4,7 +4,7 @@ body {
   color: #D2691E; /* Warna teks utams (chocolate)  */
 }
 
-.hover-btn {
+.sapaButton {
   background-color: #4CAF50;
   color: white;
   border: none;
@@ -18,7 +18,7 @@ body {
   border-radius: 6px;
   transition: background-color 0.3s, color 0.3s;
 }
-.hover-btn:hover {
+.sapaButton:hover {
   background-color: #45a049;
   color: #eaffd0;
 }

@@ -5,22 +5,22 @@ body {
 }
 
 .hover-btn {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 8px 2px;
-    cursor: pointer;
-    border-radius: 6px;
-    transition: background-color 0.3s, color 0.3s;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
 }
 .hover-btn:hover {
-    background-color: #45a049;
-    color: #eaffd0;
+  background-color: #45a049;
+  color: #eaffd0;
 }
 
 .kartu-profil {

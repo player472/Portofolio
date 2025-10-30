@@ -4,20 +4,6 @@ body {
   color: #D2691E; /* Warna teks utams (chocolate)  */
 }
 
-.kartu-profil {
-  width: 350px;
-  margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-  padding: 20 px;
-  background-color: white;
-  border-radius: 15px; /* Membuat sudut menjadi melengkung */
-  box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek Bayangan */
-  text-align: center; /* Menengahkan semua teks di dalam kartu */
-}
-.kartu-profil img {
-  width: 150px;
-  border-radius: 50% /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
-}
-
 .hover-btn {
     background-color: #4CAF50;
     color: white;
@@ -35,4 +21,18 @@ body {
 .hover-btn:hover {
     background-color: #45a049;
     color: #eaffd0;
+}
+
+.kartu-profil {
+  width: 350px;
+  margin: 100px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+  padding: 20 px;
+  background-color: white;
+  border-radius: 15px; /* Membuat sudut menjadi melengkung */
+  box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek Bayangan */
+  text-align: center; /* Menengahkan semua teks di dalam kartu */
+}
+.kartu-profil img {
+  width: 150px;
+  border-radius: 75% /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }

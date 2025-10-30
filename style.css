@@ -17,3 +17,18 @@ body {
   width: 150px;
   border-radius: 50% /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
+
+.my-button {
+  background-color: #007bff; /* Initial background color */
+  color: white; /* Initial text color */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.my-button:hover {
+  background-color: #0056b3; /* Background color on hover */
+  transform: scale(1.05); /* Slightly enlarge the button on hover */
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
